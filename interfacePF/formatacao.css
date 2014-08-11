@@ -1,0 +1,44 @@
+#body1  {
+    background: url(image3.jpg);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    
+}
+	
+
+.ui-dialog-contain
+        {
+            opacity: 1 !important;
+            background: #FFFFFF !important;
+        }
+.ui-dialog .ui-header .ui-btn-icon-notext
+        {
+            display: none !important;
+        }
+.ui-dialog-background
+        {
+            opacity: 0.5;
+            display: block !important;
+            -webkit-transition: opacity 0.5s ease-in;
+        }
+         
+.ui-dialog-background.pop.in
+        {
+
+        }
+         
+ .ui-dialog
+        {
+      
+        }
+		
+		
+
+

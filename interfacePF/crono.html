@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html > 
+<head> 
+
+    <title>jQuery Timer Demo</title>
+    
+   
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.timer.js"></script>
+    <script type="text/javascript" src="res/demo.js"></script>
+	
+	
+</head> 
+<body>
+
+
+
+   <div id="count_up">
+		<span id="stopwatch">00:00:00</span>
+		<p>
+			<input type='button' value='Play/Pause' onclick='Example1.Timer.toggle();' />
+			<input type='button' value='Stop/Reset' onclick='Example1.resetStopwatch();' />
+		</p>
+	</div>
+
+    <div id="count_down">
+		<span id="countdown">05:00:00</span>
+		<form id="example2form">
+			<input type='button' value='Play/Pause' onclick='Example2.Timer.toggle();' />
+			<input type='button' value='Stop/Reset' onclick='Example2.resetCountdown();' />
+			<input type='text' name='startTime' value='100' style='width:30px;' />
+		</form>
+	</div>
+
+    
+</body>
+</html>
